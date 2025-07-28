@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>อาจารย์หลิง - Links</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>อาจารย์หลิง</h1>
+    <p>ช่องทางการติดต่อ</p>
+    <a href="https://discord.gg/your-invite" target="_blank">เข้ากลุ่ม Discord</a>
+    <a href="https://t.me/yourchannel" target="_blank">เข้ากลุ่ม Telegram</a>
+    <a href="https://your-other-link.com" target="_blank">ลิงก์อื่น ๆ</a>
+  </div>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+a {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 20px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 80%;
+  transition: background 0.3s;
+}
+
+a:hover {
+  background-color: #357abd;
+}
